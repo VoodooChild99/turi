@@ -19,9 +19,9 @@ function install_angr
     cd $DEP_DIR
 
     # angr
-    git clone https://github.com/angr/angr-dev.git
+    git clone https://github.com/VoodooChild99/angr-dev.git
     cd angr-dev/
-    git checkout 54a50162e9b68baf89e81c0fd62530cc64558957
+    git checkout e5d79ca594a27afb40d37037e8c34b77807a3979
     ./setup.sh -i -b py2k
     #./git_all.sh checkout feat/mixed_java
     cd ../
