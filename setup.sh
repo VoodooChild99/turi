@@ -21,7 +21,7 @@ function install_angr
     # angr
     git clone https://github.com/VoodooChild99/angr-dev.git
     cd angr-dev/
-    git checkout e5d79ca594a27afb40d37037e8c34b77807a3979
+    git checkout diane-docker
     ./setup.sh -i -b py2k
     #./git_all.sh checkout feat/mixed_java
     cd ../
