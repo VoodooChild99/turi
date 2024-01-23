@@ -34,7 +34,10 @@ function install_pysoot
     mkdir -p $DEP_DIR
     cd $DEP_DIR
 
-    git clone https://github.com/conand/pysoot
+    git clone https://github.com/VoodooChild99/pysoot.git
+    cd pysoot
+    git checkout diane
+    cd ..
     pip install -e ./pysoot
     pip install pysmt
     cd ..
